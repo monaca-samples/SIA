@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-scanbot-image-picker" version="1.1.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Scanbot Example UI Cordova Plugin</name>
+    <js-module name="ScanbotImagePicker" src="www/scanbot-image-picker.js">
+        <clobbers target="ScanbotImagePicker" />
+    </js-module>
+    <platform name="android">
+        <framework src="com.opensooq.supernova:gligar:1.1.0" />
+        <framework src="androidx.exifinterface:exifinterface:1.2.0" />
+
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="ScanbotImagePicker">
+                <param name="android-package" value="io.scanbot.cordova.plugin.ScanbotImagePicker" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/ScanbotImagePicker.java" target-dir="src/io/scanbot/cordova/plugin" />
+        <source-file src="src/android/utils/JsonArgs.java" target-dir="src/io/scanbot/cordova/plugin/utils" />
+    </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="ScanbotImagePicker">
+                <param name="ios-package" value="ScanbotImagePicker" />
+            </feature>
+            
+        </config-file>
+
+        <framework src="src/ios/Frameworks/GMImagePickerWithCloudMediaDownloading.framework" custom="true" embed="true" />
+
+
+        <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="This app needs to access your photo library in order to import images" />
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+        <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
+        </config-file>
+
+        <source-file src="src/ios/ScanbotImagePicker.m" />
+        <header-file src="src/ios/ScanbotImagePickerConfiguration.h" />
+        <source-file src="src/ios/ScanbotImagePickerConfiguration.m" />
+        <header-file src="src/ios/ScanbotImagePickerMapper.h" />
+        <source-file src="src/ios/ScanbotImagePickerMapper.m" />
+        <header-file src="src/ios/ScanbotImagePickerUI.h" />
+        <source-file src="src/ios/ScanbotImagePickerUI.m" />
+        <source-file src="src/ios/Frameworks/GMImagePickerWithCloudMediaDownloading.framework" target-dir="lib" framework="true" />
+    </platform>
+</plugin>

@@ -1,0 +1,41 @@
+.authPage{
+    padding:20px;
+}
+
+.authBtn{
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    /* font-family: 'Inika'; */
+    background-color: #61AEF5;
+}
+
+#appname{
+    color: #61AEF5;
+    font-size: 96px;
+    font-family: 'Inika';
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.block-title{
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 70px;
+   font-style: 'Inika';
+}
+
+.item-inner-auth{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border: solid 1.5px #61AEF5;
+    /* border-right: solid 1.5px #61AEF5; */
+}
+
+.icons{
+    color: #61AEF5;
+}
+

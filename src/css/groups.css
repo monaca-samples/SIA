@@ -1,0 +1,197 @@
+/*Group Main css*/
+
+.groupImg{
+    padding-bottom: 0px;
+}
+
+.fab a{
+    background-color: #61AEF5;
+}
+
+.imageItem{
+    background-color: var(--f7-page-bg-color);
+    padding-bottom: 0px;
+}
+
+#picsList{
+    margin-top: 0px;
+}
+
+/*Groups List css*/
+.groupName{
+    font-size: 20px;
+    /* font-family: 'Inika'; */
+    font-weight: 500;
+    padding: 5px 20px 0px; /*top-right&left-bottom*/
+    vertical-align: middle;
+    color: black;
+}
+
+.groupCard.prof {
+    max-width: 100%;
+    border-radius: 50%;
+    float: left;
+}
+
+#groupsListId{
+    padding-bottom: 50px;
+}
+
+.groupDesc{
+    opacity: 50%;
+    color: black;
+    padding: 0px 20px;
+}
+
+/*Create Group css*/
+#popupPage, .searchbar-inner, #grpToolbar{
+    background-color: white;
+}
+
+.imgDiv{
+    height: 150px;
+    width: 150px;
+    display: grid;
+    margin: 0 auto;
+}
+
+#cameraIcon{
+    color: white;
+    font-size: 50px;
+}
+
+#cameraLink, #groupProf{
+    margin: auto;
+}
+
+#infoList{
+    margin-bottom: 10px;
+}
+
+.item-inner-grp{
+    margin-bottom: 10px;
+}
+
+#beforeImg{
+    background-color: #D4D4D4;
+}
+
+#search{
+    margin-top: 16px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.search-list{
+    margin-top: 0px;
+    height: 200px;
+    overflow: scroll; 
+}
+
+/*Invitations css*/
+.invBtn{
+    margin-top: 10px;
+    color: #61AEF5;
+    border-color: #61AEF5;
+    width: fit-content;
+    margin-left: 35px;
+}
+
+#empty{
+    text-align: center;
+    opacity: 70%;
+    font-size:medium;
+}
+
+.pd-10{
+    padding-top: 10px;
+}
+
+/*Shared*/
+.icons, .createGroupBtns{
+    color: #61AEF5;
+}
+
+.navbarTitle{
+    color: #61AEF5;
+    font-size: 25px;
+    font-weight: 500;
+    /* font-family: 'Inika'; */
+}
+
+.hidden{
+    display: none;
+}
+
+.groupCard{
+    margin: 5px 0px;
+    padding: 10px ;
+}
+
+.navbar-inner{
+    padding: 0px 12px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nameDiv{
+    flex-basis: 30%;
+}
+
+.nameDiv block{
+    font-size: 35px;
+}
+
+.pictureCard{
+    display: inline;
+}
+
+.popover-inner.item-title{
+    /* font-family: 'Inika'; */
+    color: #61AEF5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

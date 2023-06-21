@@ -1,0 +1,88 @@
+/* Newsfeed css */
+.newUsrDesc{
+    white-space: pre-wrap;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 0px;
+}
+
+.groupCard{
+    margin: 5px 0px;
+    padding: 10px ;
+}
+
+.circleImg {
+    max-width: 100%;
+    border-radius: 50%;
+    float: left;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.username{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc{
+    opacity: 70%;
+    font-size: 13px;
+}
+
+.headerCol2{
+    position: relative;
+}
+
+.headerDiv{
+    position: absolute;
+    top: 50%;
+    transform: translateY(20%);
+}
+
+.card-footer{
+    padding: 0px 16px;
+}
+
+.postIcon{
+    font-size: 23px;
+}
+
+.inactive, .inactive.postIcon{
+    color: grey;
+}
+
+.liked{
+    color: #61AEF5;
+}
+
+.mt-0{
+    margin-top: 0px;
+}
+
+/* Comments css */
+.fixedBottom .item-input-wrap{
+    padding: 17px 0px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.fixedBottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.small-title{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    /* font-family: 'Inika'; */
+    color: #61AEF5;
+}

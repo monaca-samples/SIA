@@ -1,0 +1,26 @@
+{
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@6.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-scanbot-image-picker": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-scanbot-image-picker"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-telerik-imagepicker": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/Telerik-Verified-Plugins/ImagePicker.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
